@@ -1,0 +1,1831 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="icon" type="image/x-icon" href="twitter-icons/sam-dp.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+        <link href="twitter.css" rel="stylesheet">
+        <link href="twitter-sidebar1.css" rel="stylesheet">
+        <link href="twitter-sidebar2.css" rel="stylesheet">
+        <title> Twitter Clone</title>
+    </head>
+    <body style="margin: 0;
+    background-color:black ;
+    font-family: Roboto;
+    ">
+        <div class="grid">
+            <div class="sidebar">
+                <div class="sidebar-container">
+                    <div class="twitter-logo-container">
+                        <div class="twitter-logo-container-2">
+                            <img class="twitter-logo" src="twitter-icons/twitter-white-logo_prev_ui.png">
+                        </div>
+                        
+                    </div>
+                    <div class="home-container">
+                        <div class="home-container-2">
+                            <div class="home-icon-container">
+                                <img class="home-icon" src="twitter-icons/home-icon.png">
+                            </div>
+                            <div class="home-icon-container">
+                                <div class="home-text">
+                                    Home
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="explore-container">
+                        <div class="explore-container-2">
+                            <div class="explore-icon-container">
+                                <img class="explore-icon" src="twitter-icons/hash-icon.png">
+                            </div>
+                            <div class="explore-icon-container">
+                                <div class="explore-text">
+                                    Explore
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="notification-container">
+                        <div class="notification-container-2">
+                            <div class="notification-icon-container">
+                                <img class="notification-icon" src="twitter-icons/notification-icon.png">
+                            </div>
+                            <div class="notification-icon-container">
+                                <div class="notification-text">
+                                    Notifications
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="message-container">
+                        <div class="message-container-2">
+                            <div class="message-icon-container">
+                                <img class="message-icon" src="twitter-icons/message-icon.png">
+                            </div>
+                            <div class="message-icon-container">
+                                <div class="message-text">
+                                    Messages
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="bookmark-container">
+                        <div class="bookmark-container-2">
+                            <div class="bookmark-icon-container">
+                                <img class="bookmark-icon" src="twitter-icons/bookmark-icon.png">
+                            </div>
+                            <div class="bookmark-icon-container">
+                                <div class="bookmark-text">
+                                    Bookmarks
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="list-container">
+                        <div class="list-container-2">
+                            <div class="list-icon-container">
+                                <img class="list-icon" src="twitter-icons/lists-icon.png">
+                            </div>
+                            <div class="list-icon-container">
+                                <div class="list-text">
+                                    Lists
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="profile-container">
+                        <div class="profile-container-2">
+                            <div class="profile-icon-container">
+                                <img class="profile-icon" src="twitter-icons/profile-icon.png">
+                            </div>
+                            <div class="profile-icon-container">
+                                <div class="profile-text">
+                                    Profile
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="more-container">
+                        <div class="more-container-2">
+                            <div class="more-icon-container">
+                                <img class="more-icon" src="twitter-icons/more-icon.png">
+                            </div>
+                            <div class="more-icon-container">
+                                <div class="more-text">
+                                    More
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="tweet-container">
+                        <button class="tweet">
+                            Tweet
+                        </button>
+                    </div>
+                    <div class="my-profile-container">
+                    <div class="my-profile-container-2">
+                        <div class="profile">
+                            <img src="twitter-icons/my-profile.jpg" class="my-Profile">
+                        </div>
+                        <div class="profile">
+                            <div class="profile">
+                                <p class="name">Sam Sylvester</p>
+                                <p class="username">@SamSylvester_12</p>
+                            </div>
+                            <div class="profile">
+                            <p class="three-dot">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+                
+                
+                
+            </div>
+
+            <div class="home">
+                <div class="home-title">
+                    Home
+                    <div class="top-tweet-container">
+                        <img src="twitter-icons/top-tweet_prev_ui.png" class="top-tweet">
+                    </div>
+                </div>
+                <div class="tweet-box">
+                    <div class="text-boxx">
+                        <img src="twitter-icons/my-profile.jpg" class="my-profile">
+                    </div>
+                    <div class="text-boxx">
+                        <input type="text" placeholder="Dite algo ahi Juancito" class="text-box">
+                    </div>
+                </div>
+                <div class="icons">
+                    <div>
+                        <img class="media-icon" src="twitter-icons/media-icon.png">  
+                    </div>
+                    <div>
+                        <img class="gif-icon" src="twitter-icons/gif-icon.png">
+                    </div>
+                    <div>
+                        <img class="poll-icon" src="twitter-icons/poll-icon.png">
+                    </div>
+                    <div>
+                        <img class="emoji-icon" src="twitter-icons/emoji-icon.png">
+                    </div>
+                    <div>
+                        <img class="schedule-icon" src="twitter-icons/schedule-icon.png">
+                    </div>
+                    <div>
+                        <img class="location-icon" src="twitter-icons/location-icon.png">
+                    </div>
+                    <div class="tweet-button-container">
+                        <button class="tweet-button">
+                            Tweet
+                        </button>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content">
+                        <div class="content-title-profile1">
+                            <div class="content-title-profile-1">
+                                <img src="twitter-profile/tesla-profile.jpg" class="post-profile">
+                                <div class="content-tooltip1">
+                                    <div class="content-tooltip-1">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/tesla-profile.jpg">
+                                        <button class="content-follow-button-tooltip-1">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Nicole Cedano</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@NicoleVenezuela</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-1">
+                                            electric vehicles, giant batteries and solar
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>77</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>17.1M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                        <div class="content-title">
+                            
+                            <div class="title-container">
+                                <span class="post-title">Nicole Cedano</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@NicoleVenezuela2004<b>&#183;</b> Sep 17</span>
+                                <span class="dot">...</span>
+                            </div>
+                            <div class="content--title">
+                                Juancito exonerenos por favor!!!
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/tesla-post.jpg" class="content-post">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">882</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">1,544</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">16.4K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content2">
+                        <div class="content-title-profile2">
+                            <div class="content-title-profile-2">
+                                <img src="twitter-profile/cr7-profile.jpg" class="post-profile">
+                                <div class="content-tooltip2">
+                                    <div class="content-tooltip-2">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/cr7-profile.jpg">
+                                        <button class="content-follow-button-tooltip-2">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Sandy Rosso</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@sandyyyy</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-1">
+                                            This Privacy Policy addresses the collection
+                                             and use of personal information - <span class="cr7-tooltip-link">http://cristianoronaldo.com/terms</span>
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>62</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>103.8M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Sandy Rosso</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@sandyyyy <b>&#183;</b> Sep 21</span>
+                                <span class="dot2">...</span>
+                            </div>
+                            <div class="content--title">
+                                Loco por graduarme y salir de esto 😀🙏🏽
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/cr7-post.jpg" class="content-post">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">5,134</div>
+                                    </div>
+                                   
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">13.7K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"></classlike-icon><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">269K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content3">
+                        <div class="content-title-profile3">
+                            <div class="content-title-profile-3">
+                                <img src="twitter-profile/dhanush-profile.jpg" class="post-profile">
+                                <div class="content-tooltip3">
+                                    <div class="content-tooltip-3">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/dhanush-profile.jpg">
+                                        <button class="content-follow-button-tooltip-3">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Walquiria Montas</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@Walquiria</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-3">
+                                            ASURAN/Actor
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>160</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>11.1M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Walquiria Montas</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@walquiria <b>&#183;</b> Sep 15</span>
+                                <span class="dot3">...</span>
+                            </div>
+                            <div class="content--title">
+                                Miren el carro que se compramos #bendecida<a href="" 
+                                target="_blank" class="link-post"></a>
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/dhanush-post.jpg" class="content-post3">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">852</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">6,744</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">39.1K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content4">
+                        <div class="content-title-profile4">
+                            <div class="content-title-profile-4">
+                                <img src="twitter-profile/elon-profile.jpg" class="post-profile">
+                                <div class="content-tooltip4">
+                                    <div class="content-tooltip-4">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/elon-profile.jpg">
+                                        <button class="content-follow-button-tooltip-4">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Jose Alexander</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@josetumarido</span>
+                                        </div>
+                                        
+                                        <div class="followers-following-4">
+                                            <b>122</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>107.9M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Jose Alexander</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@JoseTuMarido <b>&#183;</b> Sep 26</span>
+                                <span class="dot4">...</span>
+                            </div>
+    
+                            <div class="post-container">
+                            <img src="twitter-posts/elon-post.jpg" class="content-post">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">10,521</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">17.5K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">185.9K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content5">
+                        <div class="content-title-profile5">
+                            <div class="content-title-profile-5">
+                                <img src="twitter-profile/justin-profile.jpg" class="post-profile">
+                                <div class="content-tooltip5">
+                                    <div class="content-tooltip-5">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/justin-profile.jpg">
+                                        <button class="content-follow-button-tooltip-5">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Justin Bieber</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@justinbieber</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-3">
+                                            JUSTICE the album out now
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>160</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>11.1M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Justin Bieber</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@justinbieber <b>&#183;</b> Sep 7</span>
+                                <span class="dot5">...</span>
+                            </div>
+                           
+                            <div class="post-container">
+                            <img src="twitter-posts/justin-post.jpg" class="content-post5">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">10.6K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">24.5K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">124.9K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content6">
+                        <div class="content-title-profile6">
+                            <div class="content-title-profile-6">
+                                <img src="twitter-profile/spacex-profile.jpg" class="post-profile">
+                                <div class="content-tooltip6">
+                                    <div class="content-tooltip-6">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/spacex-profile.jpg">
+                                        <button class="content-follow-button-tooltip-6">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">SpaceX</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@SpaceX</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-3">
+                                            SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>160</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>11.1M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">SpaceX</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@SpaceX <b>&#183;</b> Sep 25</span>
+                                <span class="dot6">...</span>
+                            </div>
+                            <div class="content--title">
+                                Falcon 9 launches 52 Starlink satellites to orbit
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/spacex-post.jpg" class="content-post3">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">5,065</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">17.5K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">168.1K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content7">
+                        <div class="content-title-profile7">
+                            <div class="content-title-profile-7">
+                                <img src="twitter-profile/ellen-profile.jpg" class="post-profile">
+                                <div class="content-tooltip7">
+                                    <div class="content-tooltip-7">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/ellen-profile.jpg">
+                                        <button class="content-follow-button-tooltip-7">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Ellen DeGeneres</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@TheEllenShow</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            Comedian, talk show host and ice road trucker. My tweets are real, and they’re spectacular. 
+                                            <span class="ellen-tooltip-tag" >@ellentube   
+                                            @theellenfund</span>
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>26.2K</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>77.2M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Ellen DeGeneres</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@TheEllenShow <b>&#183;</b> Oct 06</span>
+                                <span class="dot7">...</span>
+                            </div>
+                            <div class="content--title">
+                                I am so excited to announce that I will be joining my dear friend 
+                                <span class="ellen-content-link">@MichelleObama</span>
+                                to kick off her <span class="ellen-content-link">#TheLightWeCarry</span> Tour in Washington, DC on November 15 and November 16 to discuss her new book. 
+                                We hope to see you there! Get your ticket today: <a class="ellen-content-link" href="https://michelleobamabooks.com/" target="_blank">http://michelleobamabooks.com</a>
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/ellen-post.jpg" class="content-post3">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">1,065</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">8.9K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">15.8K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content8">
+                        <div class="content-title-profile8">
+                            <div class="content-title-profile-8">
+                                <img src="twitter-profile/selena-profile.jpg" class="post-profile">
+                                <div class="content-tooltip8">
+                                    <div class="content-tooltip-8">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/selena-profile.jpg">
+                                        <button class="content-follow-button-tooltip-8">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Selena Gomez</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@selenagomez</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            REVELACIÓN out now: <span class="selena-tooltip-link">http://smarturl.it/REVELACIONSG</span>
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>1,086</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>66.3M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Selena Gomez</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@selenagomez <b>&#183;</b> Sep 22</span>
+                                <span class="dot8">...</span>
+                            </div>
+                            <div class="content--title">
+                                I know its September but…my new <sppan class="selena-post-tag">@RareBeauty</sppan> holiday sets have arrived!! 
+                                Shop the exclusive sets only at <sppan class="selena-post-tag">@Sephora</sppan> and 
+                                <sppan class="selena-post-tag">http://RareBeauty.com</sppan> 
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/selena-post.jpg" class="content-post8">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">2,166</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">2,981</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">23.3K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content9">
+                        <div class="content-title-profile9">
+                            <div class="content-title-profile-9">
+                                <img src="twitter-profile/harvey-profile.jpg" class="post-profile">
+                                <div class="content-tooltip9">
+                                    <div class="content-tooltip-9">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/harvey-profile.jpg">
+                                        <button class="content-follow-button-tooltip-7">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Steve Harvey</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@IAmSteveHarvey</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-9">
+                                            Global philanthropists, investor and award winning entertainer.
+                                             “The more people you help become successful the more successful you become. “
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>989</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>5.6M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Steve Harvey</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@IAmSteveHarvey <b>&#183;</b> Jul 09</span>
+                                <span class="dot9">...</span>
+                            </div>
+                            <div class="content--title">
+                                🖤
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/harvey-post.jpg" class="content-post9">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">2,672</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">9,036</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">172K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content10">
+                        <div class="content-title-profile10">
+                            <div class="content-title-profile-10">
+                                <img src="twitter-profile/snoopdogg-profile.jpg" class="post-profile">
+                                <div class="content-tooltip10">
+                                    <div class="content-tooltip-10">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/snoopdogg-profile.jpg">
+                                        <button class="content-follow-button-tooltip-10">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Snoop Dogg</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@SnoopDogg</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-9">
+                                            B.O.D.R. OUT NOW
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>2,788</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>20.4M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Snoop Dogg</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@SnoopDogg <b>&#183;</b> Sep 28</span>
+                                <span class="dot10">...</span>
+                            </div>
+                            <div class="content--title">
+                                LA fam - come see me perform at <span class="sd-tag">@LA3Cofficial</span> Festival December 10-11 👊🏾🎙 
+                                Tickets on sale now at <a class="sd-tag" href="https://www.la3c.com/" target="_blank">la3c.com</a> 💥🔥
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/snoopdogg-post.jpg" class="content-post10">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">294</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">157</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">1,288K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content11">
+                        <div class="content-title-profile11">
+                            <div class="content-title-profile-11">
+                                <img src="twitter-profile/nasa-profile.jpg" class="post-profile">
+                                <div class="content-tooltip11">
+                                    <div class="content-tooltip-11">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/nasa-profile.jpg">
+                                        <button class="content-follow-button-tooltip-11">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">NASA</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@NASA</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            There's space for everybody. ✨
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>184</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>63.7M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">NASA</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@NASA <b>&#183;</b> Oct 05</span>
+                                <span class="dot11">...</span>
+                            </div>
+                            <div class="content--title">
+                                One more evening until our next trip to space!
+                                NASA's <span class="nasa-tag">@SpaceX #Crew5</span> mission to the <span class="nasa-tag">@Space_Station</span> is scheduled to lift off at noon ET (1600 UTC) on Wednesday, 
+                                Oct. 5. NASA TV launch coverage begins at 8:30am ET: <a class="nasa-tag" href="https://www.nasa.gov/nasalive" target="_blank">go.nasa.gov/3C89pxB</a>
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/nasa-post.jpg" class="content-post11">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">116</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">588</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">4,894</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content12">
+                        <div class="content-title-profile12">
+                            <div class="content-title-profile-12">
+                                <img src="twitter-profile/neymar-profile.jpg" class="post-profile">
+                                <div class="content-tooltip12">
+                                    <div class="content-tooltip-12">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/neymar-profile.jpg">
+                                        <button class="content-follow-button-tooltip-12">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Neymar Jr</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@neymarjr</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            Filho de Deus, Pai, Feliz e Ousado !
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>626</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>58.3M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Neymar Jr</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@neymarjr <b>&#183;</b> Oct 01</span>
+                                <span class="dot12">...</span>
+                            </div>
+                            <div class="content--title">
+                                Que Deus nos abençoe e nos proteja 🙏💙💚💛
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/neymar-post.jpg" class="content-post12">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">6,923</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">10.2K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">157.3K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content13">
+                        <div class="content-title-profile13">
+                            <div class="content-title-profile-13">
+                                <img src="twitter-profile/britney-profile.jpg" class="post-profile">
+                                <div class="content-tooltip13">
+                                    <div class="content-tooltip-13">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/britney-profile.jpg">
+                                        <button class="content-follow-button-tooltip-13">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Britney Spears 🌹🚀</span>
+                                            <img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@britneyspears</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            <span class="britney-tag">#HoldMeCloser</span> with 
+                                            <span class="britney-tag">@EltonOfficial</span> out now 🌹🚀
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>362K</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>56M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Britney Spears 🌹🚀
+                                </span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@britneyspears <b>&#183;</b> Sep 14</span>
+                                <span class="dot13">...</span>
+                            </div>
+                            <div class="content--title">
+                                Me and <span class="britney-tag">@ParisHilton</span> at my wedding … this is actually an
+                                 extremely cool shot of us both!!! We look like pixie fairies 
+                                 doing a hair commercial 🧚🏻‍♀️ 🧚🏻‍♀️ 🧚🏻‍♀️ !!!!
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/britney-post.jpg" class="content-post13">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">1,624</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">4,568</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">65K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content14">
+                        <div class="content-title-profile14">
+                            <div class="content-title-profile-14">
+                                <img src="twitter-profile/demi-profile.jpg" class="post-profile">
+                                <div class="content-tooltip14">
+                                    <div class="content-tooltip-14">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/demi-profile.jpg">
+                                        <button class="content-follow-button-tooltip-14">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Demi Lovato</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@ddlovato</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            HOLY FVCK out now 🖤
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>1</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>54.1M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Demi Lovato</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@ddlovato <b>&#183;</b> Aug 30</span>
+                                <span class="dot14">...</span>
+                            </div>
+                            <div class="content--title">
+                                Thank you doesn’t cut it. I’m blown away and so BEYOND grateful.. I love you all so much.. 🙏🏼🖤
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/demi-post.jpg" class="content-post14">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">1,035</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">3,157</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">16.7K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content15">
+                        <div class="content-title-profile15">
+                            <div class="content-title-profile-15">
+                                <img src="twitter-profile/virat-profile.jpg" class="post-profile">
+                                <div class="content-tooltip15">
+                                    <div class="content-tooltip-15">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/virat-profile.jpg">
+                                        <button class="content-follow-button-tooltip-15">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Virat Kohli</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@imVkohli</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            A proud husband and father ❤️
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>65</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>50.6M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Virat Kohli</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@imVkohli <b>&#183;</b> Sep 29</span>
+                                <span class="dot15">...</span>
+                            </div>
+                            <div class="content--title">
+                                <span class="content--title-15">A strong start 🇮🇳</span>
+                                Next up: Guwahati
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/virat-post.jpg" class="content-post15">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">1,371</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">7,157</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">142.2K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content16">
+                        <div class="content-title-profile16">
+                            <div class="content-title-profile-16">
+                                <img src="twitter-profile/bts-profile.jpg" class="post-profile">
+                                <div class="content-tooltip16">
+                                    <div class="content-tooltip-16">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/bts-profile.jpg">
+                                        <button class="content-follow-button-tooltip-16">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">방탄소년단</span>
+                                            <img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@BTS_twt</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            Hi ! We are BTS !
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>134</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>47.5M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">방탄소년단</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@BTS_twt <b>&#183;</b> Sep 27</span>
+                                <span class="dot16">...</span>
+                            </div>
+                            <div class="content--title">
+                                🏀🏆
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/bts-post.jpg" class="content-post16">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">60.2K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">456.4K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">1.5M</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content17">
+                        <div class="content-title-profile17">
+                            <div class="content-title-profile-17">
+                                <img src="twitter-profile/akshay-profile.jpg" class="post-profile">
+                                <div class="content-tooltip17">
+                                    <div class="content-tooltip-17">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/akshay-profile.jpg">
+                                        <button class="content-follow-button-tooltip-17">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Akshay Kumar</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@akshaykumar</span>
+                                        </div>
+                                        
+                                        <div class="followers-following-17">
+                                            <b>27</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>45.3M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Akshay Kumar</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@akshaykumar <b>&#183;</b> Oct 05</span>
+                                <span class="dot17">...</span>
+                            </div>
+                            <div class="content--title">
+                                The eagerness with which you are waiting for the <span class="akshay-tag">#RamSetu</span> trailer is making us 
+                                work even harder.We are so grateful for the love you showed on the teaser. 
+                                To answer the burning question.The Ram Setu trailer will be out on 11th Oct.
+                                Get ready to deep dive into the world of Ram Setu
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/akshay-post.jpg" class="content-post17">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">638</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">1,604</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">11.6K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content18">
+                        <div class="content-title-profile18">
+                            <div class="content-title-profile-18">
+                                <img src="twitter-profile/madrid-profile.jpg" class="post-profile">
+                                <div class="content-tooltip18">
+                                    <div class="content-tooltip-18">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/madrid-profile.jpg">
+                                        <button class="content-follow-button-tooltip-18">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Real Madrid C.F.</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@realmadrid</span>
+                                        </div>
+                                        <div class="follow-tooltip-content-7">
+                                            ⚽️ Cuenta oficial del Real Madrid C.F. 🏆
+                                            <span class="madrid-tag">@realmadriden</span>
+                                            : 🇬🇧. 
+                                            <span class="madrid-tag">@realmadridarab</span>
+                                            : العربية. 
+                                            <span class="madrid-tag">@realmadridfra</span>
+                                            : 🇫🇷. 
+                                            <span class="madrid-tag">@realmadridjapan</span>
+                                            : 🇯🇵.
+                                        </div>
+                                        <div class="followers-following">
+                                            <b>64</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>44.8M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Real Madrid C.F.</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@realmadrid<b>&#183;</b> Oct 05</span>
+                                <span class="dot18">...</span>
+                            </div>
+                            <div class="content--title">
+                                🔥📺 ¡Es noche de <span class="madrid-tag">@LigadeCampeones</span>, <span class="madrid-tag">#Madridistas</span>! 👇 
+                                ¿Desde dónde veréis el partido? <span class="madrid-tag">#UCL</span>
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/madrid-post.jpg" class="content-post3">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">101</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">231</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">2,957</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content19">
+                        <div class="content-title-profile19">
+                            <div class="content-title-profile-19">
+                                <img src="twitter-profile/sharuk-profile.jpg" class="post-profile">
+                                <div class="content-tooltip19">
+                                    <div class="content-tooltip-19">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/sharuk-profile.jpg">
+                                        <button class="content-follow-button-tooltip-19">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Shah Rukh Khan</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@iamsrk</span>
+                                        </div>
+                                        
+                                        <div class="followers-following-19">
+                                            <b>77</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>42.7M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Shah Rukh Khan</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@iamsrk <b>&#183;</b> Sep 25</span>
+                                <span class="dot19">...</span>
+                            </div>
+                            <div class="content--title">
+                                Me to My Shirt today: 
+                                ‘Tum hoti toh kaisa hota….
+                                Tum iss baat pe hairaan hoti,
+                                Tum iss baat pe kitni hansti…….Tum hoti toh aisa hota..
+                                ’Me also waiting for <span class="srk-tag">#Pathaan</span>
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/sharuk-post.jpg" class="content-post19">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">6,942</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">18.8K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">123K</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox">
+                    <div class="content20">
+                        <div class="content-title-profile20">
+                            <div class="content-title-profile-20">
+                                <img src="twitter-profile/kylie-profile.jpg" class="post-profile">
+                                <div class="content-tooltip20">
+                                    <div class="content-tooltip-20">
+                                        <img class="follow-profile-tooltip" src="twitter-profile/kylie-profile.jpg">
+                                        <button class="content-follow-button-tooltip-20">Follow</button>
+                                    </div>   
+                                    
+                                    <div>
+                                        <div>
+                                            <span class="follow-name-tooltip">Kylie Jenner</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                            <span class="follow-username-tooltip">@KylieJenner</span>
+                                        </div>
+                                        
+                                        <div class="followers-following-20">
+                                            <b>968</b> <span class="followers-count-tooltip">Following</span>
+                                            <b>40.2M</b> <span class="followers-count-tooltip">Followers</span>
+                                        </div>
+                                    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-title">
+                            <div class="title-container">
+                                <span class="post-title">Kylie Jenner</span>
+                                <img src="twitter-icons/verified.png" class="verified">
+                                <span class="title-date">@KylieJenner <b>&#183;</b> Sep14</span>
+                                <span class="dot20">...</span>
+                            </div>
+                            <div class="content--title">
+                                The Kris Collection is live!! <span class="kylie-tag">http://KylieCosmetics.com </span>🍸🫒
+                            </div>
+                            <div class="post-container">
+                            <img src="twitter-posts/kylie-post.jpg" class="content-post20">
+                            </div>
+                            <div class="line-icon-container">
+                                <div class="line-icon-1">
+                                    <div class="line-icon1">
+                                        <div class="reply-icon"><img src="twitter-icons/reply-icon.png" class="line-icons-icon"></div>
+                                        <div class="count1">320</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-2">
+                                    <div class="line-icon2">
+                                        <div class="retweet-icon"><img src="twitter-icons/retweet-icon.png" class="line-icons-icon"></div>
+                                        <div class="count2">368</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-3">
+                                    <div class="line-icon3">
+                                        <div class="like-icon"><img src="twitter-icons/likes-icon.png" class="line-icons-icon"></div>
+                                        <div class="count3">9,308</div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="line-icon-share">
+                                    <div class="share-icon"><img src="twitter-icons/share-icon.png" class="line-icons-share"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar-2">
+                <div class="sidebar2-container">
+                    <div class="search-twitter">
+                        <img src="twitter-icons/search-icon.png" class="search-icon">
+                        <input type="text" placeholder="Search Twitter" class="search-box">
+                    </div>
+                    <div class="news-container">
+                        <div class="news">
+                            <div class="news-title">
+                                What's happening
+                            </div>
+                            <div class="trending-1">
+                                <div class="trending1-main-content">
+                                    <div class="trending1-title-1">
+                                        Business & finance
+                                        <b>&middot;</b>
+                                        Last night
+                                    </div>
+                                    <div class="trending1-content">
+                                        El dolar a 62, el Metro no sirve y el PRM igualito
+                                    </div>
+                                    <div class="trending1-title-2">
+                                        Trending with <span class="trending-tag1">#stockmarketcrash</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img class="trending1-profile" src="twitter-profile/trending-1-profile.jpg">
+                                </div>
+                                
+                            </div>
+                            <div class="trending-2">
+                                <div class="trending2-main-content">
+                                    <div class="trending2-title1">
+                                        #Ponga la O&M Virtual por favoooooor
+                                    </div>
+                                    <div class="trending2-content">
+                                        Onguito y Dylon siguen preso 
+                                    </div>
+                                    <div class="trending2-title2">
+                                        Promoted by Spotify India
+                                    </div>
+    
+                                </div>
+                            </div>
+
+                            
+                        </div>  
+                        <div class="who-to-follow">
+                            <div class="follow-title">
+                                Who to follow
+                            </div>
+                            <div class="follow-list-container">  
+                                
+                                <div class="follow-1">
+                                    <div class="follow-container-profile-container">
+                                        <img src="twitter-profile/billgates-profile.jpg" class="follow-profile-1">
+                                        <div class="profile-container-tooltip">
+                                            <div class="channel-tooltip">
+                                                <img class="follow-profile-tooltip" src="twitter-profile/billgates-profile.jpg">
+                                                <button class="follow-button-tooltip">Follow</button>
+                                            </div>   
+                                            
+                                            <div>
+                                                <div>
+                                                    <span class="follow-name-tooltip">Erasmo Martinez</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                                    <span class="follow-username-tooltip">@Erasmo</span>
+                                                </div>
+                                                <div class="follow-tooltip-content">
+                                                    Klk.
+                                                </div>
+                                                <div class="followers-following">
+                                                    <b>476</b> <span class="followers-count-tooltip">Following</span>
+                                                    <b>60.5M</b> <span class="followers-count-tooltip">Followers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div>
+                                        <span class="follow-name">Erasmo</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                        <span class="follow-username">@Erasmo</span>
+                                    </div>
+                                    
+                                    <div>
+                                        <button class="follow-button">
+                                            Follow
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="follow-list-container-2">  
+                                
+                                <div class="follow-2">
+                                    <div class="follow-container-profile-container">
+                                        <img src="twitter-profile/katypery-profile.jpg" class="follow-profile-1">
+                                        <div class="profile-container-tooltip-2">
+                                            <div class="channel-tooltip">
+                                                <img class="follow-profile-tooltip" src="twitter-profile/katypery-profile.jpg">
+                                                <button class="follow-button-tooltip-2">Follow</button>
+                                            </div>   
+                                            
+                                            <div>
+                                                <div>
+                                                    <span class="follow-name-tooltip">Jyara Michelle</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                                    <span class="follow-username-tooltip">@Jyaraladura</span>
+                                                </div>
+                                                <div class="follow-tooltip-content">
+                                                    <a class="katy-link">linktr.ee/katyperry</a>
+                                                </div>
+                                                <div class="followers-following">
+                                                    <b>244</b> <span class="followers-count-tooltip">Following</span>
+                                                    <b>108.9M</b> <span class="followers-count-tooltip">Followers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="follow-name">Jyara la tora</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                        <span class="follow-username">@jyara</span>
+                                    </div>
+                                    
+                                    <div>
+                                        <button class="follow-button-2">
+                                            Follow
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="follow-list-container-3">  
+                                
+                                <div class="follow-2">
+                                    <div class="follow-container-profile-container">
+                                        <img src="twitter-profile/twitter-profile.jpg" class="follow-profile-1">
+                                        <div class="profile-container-tooltip-3">
+                                            <div class="channel-tooltip">
+                                                <img class="follow-profile-tooltip" src="twitter-profile/twitter-profile.jpg">
+                                                <button class="follow-button-tooltip-3">Follow</button>
+                                            </div>   
+                                            
+                                            <div>
+                                                <div>
+                                                    <span class="follow-name-tooltip">Twitter</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                                    <span class="follow-username-tooltip">@Twitter</span>
+                                                </div>
+                                                <div class="follow-tooltip-content">
+                                                    What's happening?!
+                                                </div>
+                                                <div class="followers-following">
+                                                    <b>6</b> <span class="followers-count-tooltip">Following</span>
+                                                    <b>63.6M</b> <span class="followers-count-tooltip">Followers</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="follow-name">Twitter</span><img src="twitter-icons/verified.png" class="verified-icon">
+                                        <span class="follow-username">@Twitter</span>
+                                    </div>
+                                    
+                                    <div>
+                                        <button class="follow-button-3">
+                                            Follow
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="show-more-container">
+                                <div class="show-more-2">
+                                    Show more
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                         
+            </div>  
+        </div>
+    </body>
+</html>

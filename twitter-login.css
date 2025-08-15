@@ -1,0 +1,446 @@
+.grid{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+button{
+    border: none;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.banner-container{
+    position:relative;
+    width: 50%;
+    border: 1px solid; 
+}
+.banner{
+    
+    width: 90%;    
+    min-width:400px;
+    object-fit: cover;
+    height: 810px;
+    
+}
+.twitter-logo-container{
+    position: absolute;
+    top:38%;
+    left: 30%;
+    width: 30%;
+      
+}
+.twitter-white-logo{    
+    width: 80%;
+}
+
+
+.twitter{
+    width: 70px;
+    margin-left: -12px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.buttons{
+   display: grid;
+   width: 350px;
+}
+.title{
+    
+    margin-top: 60px;
+    color: rgb(231, 231, 231);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    font-stretch: extra-expanded;   
+    
+    width: 600px;
+}
+.title-2{
+    margin-top: 50px;
+    color: rgb(231, 231, 231);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-stretch: extra-expanded; 
+}
+.google-logo{
+    width: 18px;
+}
+.sign-with-google{
+    margin-top: 35px;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    padding: 11px 70px;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(95, 99, 104);
+    transition:opacity 0.15s;
+    justify-content: center;
+    text-decoration:none;
+    
+}
+.sign-with-google:hover{
+    
+    opacity: 0.9;
+}
+.sign-with-google:active{
+    opacity: 0.8;
+    
+}
+.login{
+    text-decoration: none;
+    color: rgb(95, 99, 104);
+    display: flex;
+    
+}
+
+.apple-logo{
+    width: 25px;
+}
+
+
+.sign-with-apple{
+    margin-top: 10px;
+    
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    padding: 8px 72px;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 700;
+    transform: opacity 0.15s;   
+    
+}
+.sign-with-apple:hover{
+    opacity: 0.9;
+}
+.sign-with-apple:active{
+    opacity: 0.8;
+}
+.border{
+    display: inline-block;
+    
+    border-bottom: 1px rgb(47, 51, 54) solid;
+    width: 140px;
+    vertical-align: middle;
+    
+}
+.text{
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    margin-left:3px;
+    margin-right: 3px;
+
+}
+.sign-with-phone{
+    margin-top: 12px;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    padding: 11px 50px;
+    font-size: 15px;
+    background-color:rgb(29 155 240);
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.15s;
+    text-decoration: none;
+
+}
+
+.sign-with-phone:hover{
+    background-color: rgba(29, 155, 240, 0.9);
+   
+}
+
+.phrase{
+    color: rgb(113, 118, 123);
+    font-size: 11px;
+    width: 300px;
+    margin-top: 8px;
+}
+.phrase-1{
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+
+.account{
+    margin-top: 60px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.sign-in{
+    margin-top: 18px;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    border:1px rgb(83 100 113) solid;
+    padding: 11px 125px;
+    font-size: 15px;
+    background-color: inherit;
+    font-weight: 700;
+    color: rgb(29 155 240);
+    transition: opacity 0.15s, color opacity 1;
+    text-decoration: none;
+}
+.sign-in:hover{
+    background-color: rgba(5, 27, 39, 0.5 );
+    
+   
+}
+.bottom{
+    display: flex;
+    padding: 12px 16px;
+    
+}
+.bottom-header{
+
+    display: flex;
+    
+    color: rgb(113, 118, 123);
+    font-size: 13px;
+    
+}
+.bottom-content{
+    margin-left: 290px; 
+}
+.help:hover,
+.about:hover,
+.tos:hover,
+.privacy:hover,
+.cookie:hover,
+.access:hover,
+.ads:hover,
+.blog:hover,
+.status:hover,
+.career:hover,
+.brand:hover,
+.advertising:hover,
+.market:hover,
+.tob:hover,
+.develop:hover,
+.direct:hover,
+.setting:hover,
+.inc:hover
+{
+    
+
+
+    text-decoration: underline;
+}
+
+.about,.help{
+    
+    padding-right: 12px;
+}
+.tos{
+    padding-right: 13px;
+}
+.privacy{
+    padding-right: 12px;
+}
+.cookie{
+    padding-right: 12px;
+}
+.access{
+    padding-right: 15px;
+}
+.ads{
+    padding-right: 12px;
+}
+.blog{
+    padding-right: 12px;
+}
+.status{
+    padding-right: 12px;
+}
+.career{
+    padding-right: 15px;
+}
+.brand{
+    padding-right: 15px;
+}
+.advertising{
+    padding-right: 7px;
+}
+.market{
+    padding-right: 9px;
+}
+.tob{
+    padding-right: 15px;
+}
+.develop{
+    padding-right: 12px;
+}
+.direct{
+    padding-right: 13px;
+}
+.setting{
+    padding-right: 15px;
+}
+.inc{
+    padding-right: 12px;
+}
+@media screen and (max-width : 1265px){
+    .title{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:1089px){
+    .bottom{
+        display: none;
+
+    }
+}
+@media screen and (max-width:1215px) {
+    .twitter-logo-container{
+        width: 40%;   
+    }
+}
+@media screen and (max-width:1020px){
+    .grid{
+        display: flex;
+        justify-content: center;
+    }
+    .banner,.banner-container{
+        display: none;
+    }
+    .content{
+        background-color: rgb(71, 70, 70);
+        padding: 30px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        border-radius: 30px;
+        margin-left: -0px;
+        margin-top: 120px;
+    }
+    .title{
+        color: rgb(237, 234, 234);
+        margin-top: 10px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .twitter{
+        width:100%;
+        margin-left: -5px;
+    }
+    .twitter-logo{
+        width: 20%;
+    }
+    .title-2{
+        margin-top: 30px;
+    }
+    .account{
+        margin-top: 30px;
+    }
+    .phrase{
+        color: rgb(197, 195, 195);
+    }
+    .buttons{
+        padding-left: 30px ;
+    }
+}
+@media screen and (max-width:710px){
+    .content{
+       
+        padding: 20px  0 20px 0 ;
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .title-2{
+        font-size: 25px;
+    }
+    .buttons{
+        padding-left: 40px ;
+    }
+    .twitter-logo{
+        width: 15%;
+    }
+}
+@media screen and (max-width:649px){
+    .title{
+        display: none;
+    }
+    .content{
+        margin-left: 0px;
+        margin-top: 120px;
+    }
+    .title-2{
+        margin-top: 20px;
+       
+    }
+    .sign-with-google{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:420px) {
+    .title-2{
+        font-size:18px;
+    }
+    .sign-with-google{
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .google-logo{
+        width: 15px;
+    }
+    .sign-with-apple{
+        font-size: 12px;
+        padding: 8px 35px;
+
+    }
+    .apple-logo{
+        width:20px
+    }
+    .border{
+        width: 82px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .sign-with-phone{
+        font-size: 11.8px;
+        padding: 8px 20px;
+    }
+    .phrase{
+        font-size: 8px;
+        width: 200px;
+    }
+    .account{
+        font-size: 15px;
+        margin-top: 13px;
+    }
+    .sign-in{
+        font-size: 12px;
+        padding: 8px 78px;
+
+    }
+    .buttons{
+        width: 190px;
+        padding-left: 0px;
+
+    }
+    .content{
+        padding-left: 0px;
+        margin-top: 120px;
+        
+    }
+    
+}
